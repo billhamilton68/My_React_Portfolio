@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+}
+
+.btn-secondary {
+    color: #fff;
+}
+
+/* Some space around sections for clarity */
+section {
+    padding: 20px 0;
+}
+
+/* Styling for Project cards */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
