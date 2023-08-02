@@ -10,10 +10,12 @@ import textEditorImage from './images/TextEditor.png';
 import passwordGeneratorImage from './images/Password_Generator.png';
 import Resume from './components/Bill_Hamilton_Test_Resume.pdf';
 
+//  The App component is the parent component of the application. It renders the Header, Project, and Footer components and uses the useState() Hook to manage the current section of the page.
 function App() {
   const [currentSection, setCurrentSection] = useState('About Me');
-
+  //  
   const projects = [
+    //  The projects array contains an object for each project that includes the title, image, repoLink, and deployedLink properties.
     { 
       title: 'My Tech Blog', 
       image: myTechBlogImage,
@@ -43,7 +45,7 @@ function App() {
   return (
     <div className="App">
       <Header setCurrentSection={setCurrentSection} />
-
+      
       {currentSection === 'About Me' && (
         <section>
           <img src={avatar} alt="Bill Hamilton" className="avatar image" />
@@ -55,7 +57,7 @@ function App() {
       )}
 
       {currentSection === 'Portfolio' && <Project projects={projects} />}
-
+        
       {currentSection === 'Contact' && (
         <section>
           <form>

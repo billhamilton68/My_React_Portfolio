@@ -1,6 +1,8 @@
 import React from 'react';
 
 function Footer() {
+
+    // Return the footer component with links to GitHub, LinkedIn, and Facebook
     return (
         <footer className="mt-5 p-3 bg-dark text-white text-center">
             <a href="https://github.com/billhamilton68" className="mr-3">GitHub</a>

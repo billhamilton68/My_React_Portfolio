@@ -1,4 +1,5 @@
 function SingleProject({ title, image, repoLink, deployedLink }) {
+    // The SingleProject component accepts the props title, image, repoLink, and deployedLink from the Project component and uses them to render the project data.
     return (
         <div className="col-md-6 my-2">  
             <div className="card">

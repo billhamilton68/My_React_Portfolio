@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+// The Navigation component accepts the prop setCurrentSection() from the App component and uses it to update the current section of the page when a link is clicked.
 function Navigation({ setCurrentSection }) {
     return (
         <nav className="mt-2">
