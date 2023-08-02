@@ -47,6 +47,12 @@ https://github.com/billhamilton68/My_React_Portfolio.git
 
 https://billhamilton68.github.io/My_React_Portfolio/
 
+![Project Image](./React_Portfolio.png)
+
+
+
+
+
 
 
 ## Main Components:
