@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/My_React_Portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/My_React_Portfolio/static/js/main.df11cb90.js",
+    "main.js": "/My_React_Portfolio/static/js/main.14c94ff9.js",
     "static/js/787.a2cb61a6.chunk.js": "/My_React_Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/VideoLingoHome.png": "/My_React_Portfolio/static/media/VideoLingoHome.5e1734c8b5b12ef2a59a.png",
     "static/media/My_Tech_Blog.png": "/My_React_Portfolio/static/media/My_Tech_Blog.7fbf7726c31e3ed66479.png",
     "static/media/Bill_Hamilton_Test_Resume.pdf": "/My_React_Portfolio/static/media/Bill_Hamilton_Test_Resume.08e4b8ca75e7f8f6fada.pdf",
     "static/media/Password_Generator.png": "/My_React_Portfolio/static/media/Password_Generator.7ba5c4071cbff9ba3d0b.png",
@@ -11,11 +12,11 @@
     "static/media/Billvatar2.png": "/My_React_Portfolio/static/media/Billvatar2.e2250d831745a00eaf05.png",
     "index.html": "/My_React_Portfolio/index.html",
     "main.e6c13ad2.css.map": "/My_React_Portfolio/static/css/main.e6c13ad2.css.map",
-    "main.df11cb90.js.map": "/My_React_Portfolio/static/js/main.df11cb90.js.map",
+    "main.14c94ff9.js.map": "/My_React_Portfolio/static/js/main.14c94ff9.js.map",
     "787.a2cb61a6.chunk.js.map": "/My_React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.df11cb90.js"
+    "static/js/main.14c94ff9.js"
   ]
 }
