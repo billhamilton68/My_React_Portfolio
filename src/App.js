@@ -9,6 +9,8 @@ import workDaySchedulerImage from './images/WorkDayScheduler.png';
 import textEditorImage from './images/TextEditor.png';
 import passwordGeneratorImage from './images/Password_Generator.png';
 import Resume from './components/Bill_Hamilton_Test_Resume.pdf';
+import VideoLingoHome from './images/VideoLingoHome.png';
+
 
 //  The App component is the parent component of the application. It renders the Header, Project, and Footer components and uses the useState() Hook to manage the current section of the page.
 function App() {
@@ -16,6 +18,14 @@ function App() {
   //  
   const projects = [
     //  The projects array contains an object for each project that includes the title, image, repoLink, and deployedLink properties.
+    
+    { 
+      title: 'VideoLingo', 
+      image: VideoLingoHome,
+      repoLink: 'https://github.com/christopherflores9312/VideoLingo.git',
+      deployedLink: 'https://videolingo-4a86a4dabd29.herokuapp.com/' 
+    },
+    
     { 
       title: 'My Tech Blog', 
       image: myTechBlogImage,
