@@ -42,7 +42,7 @@ function App() {
       title: 'Texty PWA Text Editor',
       image: textEditorImage,
       repoLink: 'https://github.com/billhamilton68/Texty_PWA_Text_Editor.git', 
-      deployedLink: 'https://git.heroku.com/texty-pwa-text-editor.git'
+      deployedLink: 'https://texty-pwa-text-editor-dab9b0efd475.herokuapp.com/'
     },
     { 
       title: 'Password Generator',
